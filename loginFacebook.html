@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Login</title>
+    <style>
+      .facebook-containter {
+        width: 100vw;
+        height: 70vh;
+        background-color: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 112px;
+        padding-top: 130px;
+      }
+      .formcontainer {
+        width: 100%;
+        height: 100%;
+      }
+      .cardform {
+        width: 400px;
+        height: 350px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        box-sizing: border-box;
+        background-color: #fff;
+        /* box-shadow: 5px 5px 5px; */
+        border-radius: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 10px 0 24px;
+        margin-left: 110px;
+      }
+      input {
+        width: 100%;
+        height: 50px;
+        /* color: grey; */
+        border-radius: 10px;
+        /* margin-top: 10px; */
+        font-size: 19px;
+        border: 1px solid silver;
+        padding-left: 15px;
+      }
+      .username {
+        margin-bottom: 10px;
+      }
+      .button-signin {
+        width: 100%;
+        height: 50px;
+        background-color: #2571ee;
+        border-radius: 10px;
+        margin-top: 10px;
+        color: white;
+        margin-top: 15px;
+        border: 0px;
+        border: 0px;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .hr {
+        width: 100%;
+        align-items: center;
+        border-bottom: 1px solid #dadde1;
+        display: flex;
+
+        text-align: center;
+      }
+      .button-signup {
+        width: 150px;
+        height: 45px;
+        color: white;
+        background-color: #42b72a;
+        border-radius: 10px;
+        border: 0px;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 15px;
+      }
+      a {
+        margin: 20px;
+        color: #1877f2;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .logo {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 60px 0 16px;
+      }
+      img {
+        width: 300px;
+        margin-left: -28px;
+        margin-bottom: -40px;
+      }
+      .heading {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0 0 20px;
+      }
+      .aaa {
+        display: flex;
+
+        justify-content: center;
+      }
+      .bbb {
+        margin-left: 150px;
+      }
+      .footer {
+        width: 100wh;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body class="facebook-containter">
+    <div class="logo">
+      <img
+        class="img"
+        src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+      />
+      <p class="heading">
+        Facebook ช่วยคุณเชื่อมต่อและแชร์กับ <br />ผู้คนมากมายรอบตัวคุณ
+      </p>
+    </div>
+    <div class="aaa">
+      <div class="formcontainer">
+        <form class="cardform">
+          <input
+            class="username"
+            type="usename"
+            placeholder="อีเมลหรือหมายเลขโทรศัพท์มือถือ"
+            name="username"
+            id=""
+          />
+          <input placeholder="รหัสผ่าน" type="password" />
+          <button class="button-signin">ลงชื่อเข้าใช้</button>
+          <a href="">ลืมรหัสผ่านใช่หรือไม่</a>
+          <div class="hr"></div>
+          <button class="button-signup">สร้างบัญชีใหม่</button>
+        </form>
+        <p class="bbb">
+          <strong>สร้างเพจ</strong> สำหรับบุคคลมีชื่อเสียง วงดนตรี หรือธุรกิจ
+        </p>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </body>
+</html>
